@@ -1,0 +1,124 @@
+/* === Map Hotspot Styles === */
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Quita el cursor de puntero de la imagen para que solo esté en los hotspots */
+.map-container img {
+    cursor: default;
+}
+
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+}
+
+/* === Map Hotspot Styles === */
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Quita el cursor de puntero de la imagen para que solo esté en los hotspots */
+.map-container img {
+    cursor: default;
+}
+
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+    /* background-color: rgba(255, 0, 0, 0.3); /* Temporary: Make hotspots visible */
+    /* border: 1px solid red; /* Temporary: Add border for visibility */
+}
+
+/* === Map Hotspot Styles === */
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.mapa {
+    width: 100%; /* La imagen del mapa ocupará todo el ancho de su contenedor */
+    max-width: 600px; /* Un ancho máximo para el mapa */
+    height: auto; /* Mantiene la proporción */
+    position: relative;
+    display: inline-block;
+}
+
+/* Quita el cursor de puntero de la imagen para que solo esté en los hotspots */
+.map-container img {
+    cursor: default;
+}
+
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+}
+
+/* === Info Modal Styles (Minimal for testing) === */
+.info-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.info-modal.show {
+    display: flex; /* Show the modal */
+}
+
+.info-modal > div {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be adjusted */
+    max-width: 500px; /* Max width for better readability */
+    color: black; /* Ensure text is visible */
+    border-radius: 5px;
+    position: relative; /* For positioning the close button */
+}
+
+.info-modal .close-btn {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    left: auto; /* Ensure no conflicting left property */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 101; /* Ensure it's above other modal content */
+}
+
+.info-modal .close-btn:hover,
+.info-modal .close-btn:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.info-modal.show {
+    display: flex; /* Show the modal */
+}
+
+.info-modal > div {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be adjusted */
+    max-width: 500px; /* Max width for better readability */
+    color: black; /* Ensure text is visible */
+    border-radius: 5px;
+    position: relative; /* For positioning the close button */
+}
