@@ -94,8 +94,8 @@ const pageContent = {
                 <button class="close-btn">&times;</button>
                 <h2>Hurlingham</h2>
                 <p>La historia de Hurlingham se origina a mediados del siglo XIX con el desarrollo de un molino y un almacén, pero su nombre proviene del Hurlingham Club, fundado por británicos en 1888, que homenajea a un club homónimo en Londres. El partido se creó formalmente en 1994, pero ya existía una comunidad con aportes de inmigrantes británicos, alemanes, italianos y españoles. Hoy, Hurlingham se caracteriza por sus espacios verdes y es una de las localidades más jóvenes de la provincia de Buenos Aires. </p>
-                <img src="./ASSETS/historia/hist-hurl-1.jpg" alt="foto-historica Hurlingham 1">
-                <img src="./ASSETS/historia/hist-hurl-2.jpg" alt="foto-historica Hurlingham 2">         
+                <img src="./ASSETS/Historia/hist-hurl-1.jpg" alt="foto-historica Hurlingham 1">
+                <img src="./ASSETS/Historia/hist-hurl-2.jpg" alt="foto-historica Hurlingham 2">         
             </div>
         </div>
 
@@ -104,8 +104,8 @@ const pageContent = {
                 <button class="close-btn">&times;</button>
                 <h2>Villa Tesei</h2>
                 <p>Villa Tesei tiene sus orígenes en las tierras cercanas al arroyo de Morón, donde el inmigrante italiano Santos Tesei se estableció en 1909 y se convirtió en un pionero local. La zona, que antiguamente pertenecía al Partido de Morón, fue declarada ciudad el 13 de noviembre de 1974, en homenaje a Don Santos. Posteriormente, con la creación del Municipio de Hurlingham en 1994, Villa Tesei pasó a formar parte de este nuevo partido como una de sus principales localidades. </p>
-                <img src="./ASSETS/historia/hist-tes-1.jpg" alt="foto-historica Tesei 1">
-                <img src="./ASSETS/historia/hist-tes-2.jpg" alt="foto-historica Tesei 2">        
+                <img src="./ASSETS/Historia/hist-tes-1.jpg" alt="foto-historica Tesei 1">
+                <img src="./ASSETS/Historia/hist-tes-2.jpg" alt="foto-historica Tesei 2">        
             </div>
         </div>
 
@@ -114,8 +114,8 @@ const pageContent = {
                 <button class="close-btn">&times;</button>
                 <h2>William Morris</h2>
                 <p>La historia de William Morris se centra en la instalación de una estación ferroviaria en 1958 en el Barrio Roca, anteriormente una zona rural de Morón. El nombre de la localidad honra a William Case Morris, un misionero y educador británico conocido por su labor filantrópica y educativa en Argentina a finales del siglo XIX y principios del XX. </p>
-                <img src="./ASSETS/historia/hist-morr-1.jpg" alt="foto-historica Morris 1">
-                <img src="./ASSETS/historia/hist-morr-2.jpg" alt="foto-historica Morris 2">
+                <img src="./ASSETS/Historia/hist-morr-1.jpg" alt="foto-historica Morris 1">
+                <img src="./ASSETS/Historia/hist-morr-2.jpg" alt="foto-historica Morris 2">
             </div>
         </div>
     `,
@@ -171,7 +171,7 @@ const pageContent = {
     `,
     'page5': `
         <div class="container" style="justify-content: center;">
-            <img class="proximamente"  src="./ASSETS/proximamente.png" alt="proximamente">
+            <img class="proximamente"  src="./ASSETS/Proximamente.png" alt="proximamente">
         </div>
     `
 };
